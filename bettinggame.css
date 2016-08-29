@@ -1,0 +1,26 @@
+body{
+  font-family: Verdana;
+}
+
+.container {
+  margin: auto;
+  padding: 2em 0em 2em 0em;
+  text-align: center;
+  margin-top: 5em;
+  background-color: #e6f3ff;
+}
+
+#submit {
+  margin-top: 0.5em;
+}
+
+#result {
+  padding: 0.5em 0em 0.5em 0em;
+  margin: 0.5em 0em 0.5em 0em;
+  background-color white;
+}
+
+#stats {
+  padding-top: 0.5em;
+  font-size: 0.7em;
+}

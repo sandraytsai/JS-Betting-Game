@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="bettinggame.css">
+    <script src="jquery-3.1.0.js"></script> 
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Betting Game</h1>
+      <div id="result">
+        <span>Welcome to the betting game!</span>
+      </div>
+      <form id="theform">
+        Place your bet ($5-$10): <input type="text" name="bet" id="bet"><br>
+        Take a guess (1-10): <input type="text" name="guess" id="guess"><br>
+        <input type="submit" value="Place my bet!">
+        <button type="button" id="reset">Restart game!</button>
+      </form>
+      <div id="stats">
+        <span id="bankbalance">Bank balance: $100</span><br>
+        <span id="randomnum"></span><br>
+        <span id="yourguess"></span>
+      </div>
+    </div>
+    <script src="bettinggame.js"></script>
+  </body>
+</html>
